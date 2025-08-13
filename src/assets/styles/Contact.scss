@@ -25,7 +25,7 @@
 
 label {
   font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
+  font-family: "DomaineDispNar-Medium", sans-serif;
 }
 
 .form-flex {
@@ -45,4 +45,36 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+.contact-form {
+  .MuiInputBase-root {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  .MuiInputBase-input,
+  .MuiInputBase-inputMultiline {
+    color: black !important;
+    background-color: white !important;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #ccc !important;
+  }
+
+  .MuiFormLabel-root {
+    color: #333 !important;
+  }
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+
+    &:hover {
+      background-color: #5000ca;
+      color: white;
+    }
+  }
 }

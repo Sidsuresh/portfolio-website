@@ -1,74 +1,230 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
-import '../assets/styles/Project.scss';
+import img_cap from "../assets/images/img_cap.png";
+import brain_tum from "../assets/images/brain_tum.png";
+import sent_analysis from "../assets/images/sent_analysis.png";
+import plant_leaf from "../assets/images/plant_leaf.png";
+import loan_risk_pred from "../assets/images/loan_risk_pred.png";
+import voice_exp_controller from "../assets/images/voice_exp_controller.png";
+import "../assets/styles/Project.scss";
 
 function Project() {
-    return(
+  return (
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
-        <div className="projects-grid">
-            <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
-            </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
-            </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
-            </div>
-            <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+      <h1>Personal Projects</h1>
+      <div className="projects-grid">
+        <div className="project">
+          <a
+            href="https://github.com/Sidsuresh/Image_Captioning_System"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={img_cap} className="zoom" alt="thumbnail" width="100%" />
+          </a>
+          <a
+            href="https://github.com/Sidsuresh/Image_Captioning_System"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Image Captioning Model using Transformer Architecture</h2>
+          </a>
+          <p>
+            <ul>
+              <li>
+                Built an image captioning system, trained and evaluated on the
+                Flickr8k dataset, combining a ResNet-50 CNN encoder with a
+                Transformer decoder to generate descriptive captions from
+                images.
+              </li>
+              <li>
+                Achieved BLEU scores of 0.5955 (BLEU-1), 0.3869 (BLEU-2), 0.2566
+                (BLEU-3), and 0.1700 (BLEU-4), indi- cating strong alignment
+                between generated and reference captions
+              </li>
+            </ul>
+          </p>
         </div>
+        <div className="project">
+          <a
+            href="https://github.com/Sidsuresh/Brain-Tumor-Detection-Vision-Transformers"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={brain_tum}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/Sidsuresh/Brain-Tumor-Detection-Vision-Transformers"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Brain Tumor Detection using Vision Transformers</h2>
+          </a>
+          <p>
+            <ul>
+              <li>
+                Built a brain tumour classification system using Vision
+                Transformer (ViT) and benchmarked it against tra- ditional CNN
+                architectures (VGG-16, ResNet-50) on MRI images.
+              </li>
+              <li>
+                Achieved a classification accuracy of 96.19% with the proposed
+                ViT model, outperforming VGG-16 (91.69%) and ResNet-50 (90.54%),
+                highlighting ViT's superior ability to capture spatial
+                dependencies in medical imaging.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div className="project">
+          <a
+            href="https://github.com/Sidsuresh/RoBERTaBasedSentimentAnalysis"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={sent_analysis}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/Sidsuresh/RoBERTaBasedSentimentAnalysis"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>
+              Sentiment Classification of Airline Reviews using Transformer
+              (SieBERT)
+            </h2>
+          </a>
+          <p>
+            <ul>
+              <li>
+                Scraped and labeled 2,000+ Emirates Airline reviews from Skytrax
+                using BeautifulSoup.
+              </li>
+              <li>
+                Fine-tuned the SieBERT model (RoBERTa-based) using Hugging Face
+                Transformers on cleaned review text for binary sentiment
+                classification.
+              </li>
+              <li>
+                Achieved 91% test accuracy, with F1-scores of 0.91 (Negative)
+                and 0.90 (Positive), demonstrating strong generalisation.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div className="project">
+          <a
+            href="https://github.com/Sidsuresh/PlantDoctor"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={plant_leaf}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/Sidsuresh/PlantDoctor"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Plant Doctor: Plant Leaf Disease Detection System</h2>
+          </a>
+          <p>
+            <ul>
+              <li>
+                A website that provides users with 98.3% accuracy in identifying
+                diseases from images of plant leaves using a CNN model trained
+                using the augmented PlantVillage dataset.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div className="project">
+          <a
+            href="https://github.com/Sidsuresh/Loan_Risk_Prediction"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={loan_risk_pred}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/Sidsuresh/Loan_Risk_Prediction"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>
+              Data-Driven Credit Risk Assessment: Predicting Loan Defaults with
+              ML Models
+            </h2>
+          </a>
+          <p>
+            <ul>
+              <li>
+                Developed a loan default risk prediction system using historical
+                Lending Club data, applying Decision Tree and Gradient Boosting
+                classifiers to assess borrower risk.
+              </li>
+              <li>
+                Achieved an F1-score of 0.9175 with Gradient Boosting,
+                outperforming the Decision Tree baseline (0.9142), with
+                performance differences confirmed significant via paired t-test
+                (Confidence level of 95%).
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div className="project">
+          <a
+            href="https://github.com/Sidsuresh/Expense-Tracker"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={voice_exp_controller}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/Sidsuresh/Expense-Tracker"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Voice-Enabled Personal Finance Management System</h2>
+          </a>
+          <p>
+            <ul>
+              <li>
+                Expense tracker with category-based expenditure logging and
+                detailed statistics.
+              </li>
+              <li>
+                Integrated with ALAN AI voice assistant for hands-free page
+                navigation and data input.
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div>
     </div>
-    );
+  );
 }
 
 export default Project;
