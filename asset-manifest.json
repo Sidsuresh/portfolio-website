@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.b33d0c68.css",
+    "main.js": "/portfolio-website/static/js/main.af14dcd8.js",
+    "static/js/453.b05d8aa5.chunk.js": "/portfolio-website/static/js/453.b05d8aa5.chunk.js",
+    "static/media/img_cap.png": "/portfolio-website/static/media/img_cap.7999c958f543a57f7d47.png",
+    "static/media/brain_tum.png": "/portfolio-website/static/media/brain_tum.5106960fbd4a003d50ec.png",
+    "static/media/sent_analysis.png": "/portfolio-website/static/media/sent_analysis.6c72a2e05a67fbf3082f.png",
+    "static/media/plant_leaf.png": "/portfolio-website/static/media/plant_leaf.b91fee4f31f9c968efb8.png",
+    "static/media/loan_risk_pred.png": "/portfolio-website/static/media/loan_risk_pred.bed05149a37b413317a9.png",
+    "static/media/voice_exp_controller.png": "/portfolio-website/static/media/voice_exp_controller.32a4810af534e7e24c47.png",
+    "static/media/ml_certificate.png": "/portfolio-website/static/media/ml_certificate.9eac1b2ff0e91e7ef229.png",
+    "static/media/bg-light.png": "/portfolio-website/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/portfolio-website/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/ba_certificate.png": "/portfolio-website/static/media/ba_certificate.5dcc6f9f9316f7bcb188.png",
+    "static/media/Siddharth_Nair_Photo_Passport.jpg": "/portfolio-website/static/media/Siddharth_Nair_Photo_Passport.773a8d62e1695a29a2ed.jpg",
+    "index.html": "/portfolio-website/index.html",
+    "main.b33d0c68.css.map": "/portfolio-website/static/css/main.b33d0c68.css.map",
+    "main.af14dcd8.js.map": "/portfolio-website/static/js/main.af14dcd8.js.map",
+    "453.b05d8aa5.chunk.js.map": "/portfolio-website/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b33d0c68.css",
+    "static/js/main.af14dcd8.js"
+  ]
+}
