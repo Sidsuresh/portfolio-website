@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.b33d0c68.css",
-    "main.js": "/portfolio-website/static/js/main.2b6dbfbc.js",
+    "main.js": "/portfolio-website/static/js/main.131e96e2.js",
     "static/js/453.b05d8aa5.chunk.js": "/portfolio-website/static/js/453.b05d8aa5.chunk.js",
     "static/media/img_cap.png": "/portfolio-website/static/media/img_cap.7999c958f543a57f7d47.png",
     "static/media/brain_tum.png": "/portfolio-website/static/media/brain_tum.5106960fbd4a003d50ec.png",
@@ -16,11 +16,11 @@
     "static/media/Siddharth_Nair_Photo_Passport.jpg": "/portfolio-website/static/media/Siddharth_Nair_Photo_Passport.773a8d62e1695a29a2ed.jpg",
     "index.html": "/portfolio-website/index.html",
     "main.b33d0c68.css.map": "/portfolio-website/static/css/main.b33d0c68.css.map",
-    "main.2b6dbfbc.js.map": "/portfolio-website/static/js/main.2b6dbfbc.js.map",
+    "main.131e96e2.js.map": "/portfolio-website/static/js/main.131e96e2.js.map",
     "453.b05d8aa5.chunk.js.map": "/portfolio-website/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b33d0c68.css",
-    "static/js/main.2b6dbfbc.js"
+    "static/js/main.131e96e2.js"
   ]
 }
