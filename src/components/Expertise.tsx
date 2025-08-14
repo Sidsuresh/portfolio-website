@@ -26,6 +26,7 @@ const labelsFirst = [
 const labelsSecond = [
   "PyTorch",
   "TensorFlow 2.0",
+  "Ollama",
   "Numpy",
   "Pandas",
   "Supervised and Unsupervised Learning",

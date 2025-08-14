@@ -16,7 +16,7 @@ function Main() {
             style={{ backgroundImage: `url(${profImage})` }}
           />
           <a
-            href="https://1drv.ms/b/c/4b0563196aec63c9/EUShnIxVzWlFtWtRVaj04AkB2rAxisJt3vrAbSvWmAewuw?e=9MIV3w"
+            href="https://1drv.ms/b/c/4b0563196aec63c9/ET4Kp03UWKhPsrXg1qWiXlABCku_zrshvF0jwLdBADe_Cg?e=uv50rk"
             target="_blank"
             rel="noreferrer"
             className="download-btn"
