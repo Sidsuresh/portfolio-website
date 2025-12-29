@@ -27,7 +27,7 @@ function Education() {
               Masters in Data Science and Innovation
             </h3>
             <h4 className="vertical-timeline-element-subtitle">UTS Sydney</h4>
-            <p>GPA: 6.83 / 7</p>
+            <p>GPA: 6.89 / 7</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

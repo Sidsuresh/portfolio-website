@@ -16,7 +16,7 @@ function Main() {
             style={{ backgroundImage: `url(${profImage})` }}
           />
           <a
-            href="https://1drv.ms/b/c/4b0563196aec63c9/ET4Kp03UWKhPsrXg1qWiXlABCku_zrshvF0jwLdBADe_Cg?e=uv50rk"
+            href="https://1drv.ms/b/c/4b0563196aec63c9/IQCfHdamiFKKToBxrmXcK1u0AS3HCKvv7ynWd8bj_SM2oRA?e=4z2Usc"
             target="_blank"
             rel="noreferrer"
             className="download-btn"
@@ -88,7 +88,7 @@ function Main() {
           </div>
           <div className="mobile-btn">
             <a
-              href="https://1drv.ms/b/c/4b0563196aec63c9/EUo5fOCsvTdMozk5D94a0HgBKSJ5GXr2X41yy2AR7ggQQw?e=P4kXfF"
+              href="https://1drv.ms/b/c/4b0563196aec63c9/IQCfHdamiFKKToBxrmXcK1u0AS3HCKvv7ynWd8bj_SM2oRA?e=4z2Usc"
               target="_blank"
               rel="noreferrer"
               className="mobile-download-btn"
